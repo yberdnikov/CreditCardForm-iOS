@@ -658,7 +658,7 @@ extension AKMaskField: UITextFieldDelegate {
 
 //  MARK: - AKMaskFieldDelegate
 
-protocol AKMaskFieldDelegate: class {
+protocol AKMaskFieldDelegate: AnyObject {
   
   /// Asks the delegate if editing should begin in the specified mask field.
   ///
